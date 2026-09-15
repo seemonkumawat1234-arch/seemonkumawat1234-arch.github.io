@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seemon Kumawat</title>
+<meta name="description" content="Spatial Scientist - Remote Sensing, GIS and Environmental Monitoring">
+<link rel="icon" href="data:,">
+<style>
+
+:root {
+  --accent: #20685c;
+  --bg: #ffffff;
+  --bg-alt: #f6f7f9;
+  --text: #1a1d23;
+  --muted: #5b6472;
+  --border: #e4e7ec;
+  --radius: 12px;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --bg-alt: #171a21;
+    --text: #e9edf3;
+    --muted: #9aa4b2;
+    --border: #262b34;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  overflow-x: hidden; /* safety net: the page must never scroll sideways */
+}
+.topnav {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; row-gap: 6px;
+  padding: 14px 24px;
+  background: var(--bg); /* fallback for browsers without color-mix() */
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border);
+}
+.brand { font-weight: 700; }
+.navlinks { display: flex; flex-wrap: wrap; gap: 4px 14px; justify-content: flex-end; }
+.navlinks a { color: var(--muted); text-decoration: none; font-size: 0.92rem; }
+.navlinks a:hover { color: var(--accent); }
+main { max-width: 760px; margin: 0 auto; padding: 0 20px 60px; }
+.hero { text-align: center; padding: 56px 0 28px; }
+.avatar { width: 108px; height: 108px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 3px solid var(--border); }
+.hero h1 { font-size: 2.1rem; margin: 0 0 6px; }
+.tagline { font-size: 1.15rem; color: var(--muted); margin: 0 0 10px; }
+.muted { color: var(--muted); font-size: 0.92rem; }
+.links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 14px; }
+.pill {
+  display: inline-block; padding: 7px 16px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text); text-decoration: none;
+  font-size: 0.9rem; transition: border-color .15s, color .15s;
+}
+.pill:hover { border-color: var(--accent); color: var(--accent); }
+.card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius);
+        padding: 26px 28px; margin: 22px 0; }
+.card h2 { margin-top: 0; font-size: 1.25rem; }
+.entry { margin-bottom: 20px; }
+.entry:last-child { margin-bottom: 0; }
+.entry-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.entry-head h3 { margin: 0; font-size: 1.05rem; }
+.entry-sub { color: var(--muted); font-size: 0.92rem; margin-top: 2px; }
+.entry-dates { color: var(--muted); font-size: 0.88rem; white-space: nowrap; }
+.entry ul { margin: 8px 0 0; padding-left: 20px; }
+.entry li { margin-bottom: 4px; }
+.entry p { margin: 8px 0 0; }
+.proj-link { display: inline-block; margin-top: 8px; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+.proj-link:hover { text-decoration: underline; }
+.skill-groups { display: grid; gap: 14px; }
+.skill-group h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 4px 10px; font-size: 0.86rem; }
+.contact { text-align: center; }
+footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 20px 0 40px; }
+@media (max-width: 480px) {
+  .hero { padding: 40px 0 20px; }
+  .hero h1 { font-size: 1.7rem; }
+  .card { padding: 20px; }
+}
+
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <span class="brand">Seemon Kumawat</span>
+  <div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav>
+<main>
+
+<header class="hero">
+  
+  <h1>Seemon Kumawat</h1>
+  <p class="tagline">Spatial Scientist - Remote Sensing, GIS and Environmental Monitoring</p>
+  <span class="muted">Darwin, Australia</span>
+  <nav class="links"><a class="pill" href="mailto:Seemonkumawat1234@gmail.com" target="_blank" rel="noopener">Email</a><a class="pill" href="https://linkedin.com/in/seemonkumawat" target="_blank" rel="noopener">LinkedIn</a><a class="pill" href="https://github.com/seemonkumawat1234-arch" target="_blank" rel="noopener">GitHub</a></nav>
+</header>
+
+
+<section id="about" class="card">
+  <h2>About</h2>
+  <p>Spatial scientist with a Master of Applied Spatial Science from Charles Darwin University, working on remote sensing of invasive grasses in northern Australian savannas. Builds land cover, risk and accessibility analyses in ArcGIS Pro, QGIS and Google Earth Engine, and handles the statistics in Stata, R and Python. Comfortable across the full workflow, from field GPS collection and ground-truthing through classification and accuracy assessment to finished cartography.</p>
+</section>
+
+
+<section id="experience" class="card">
+  <h2>Experience</h2>
+  
+<article class="entry">
+  <div class="entry-head">
+    <div>
+      <h3>Research Assistant - Remote Sensing of Invasive Grasses</h3>
+      <div class="entry-sub"><strong>Charles Darwin University</strong> &middot; Darwin, NT</div>
+    </div>
+    <div class="entry-dates">2026 - Present</div>
+  </div>
+  <ul><li>Support a research project investigating invasive grass species in northern Australian savannas, working under the supervision of Dr Richard Crabbe</li><li>Conduct literature reviews on remote sensing applications for monitoring Gamba Grass and Buffel Grass, two of the highest-priority invasive grasses in the Northern Territory</li><li>Compare the capabilities of UAV, LiDAR, Sentinel-2, Landsat and airborne imagery for invasive species detection, assessing trade-offs in spatial resolution, revisit frequency and cost</li><li>Evaluate recent studies to identify methodological gaps in invasive species detection and monitoring</li></ul>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <div>
+      <h3>Spatial Science Intern - Seed Germination and Environmental Monitoring</h3>
+      <div class="entry-sub"><strong>Charles Darwin University</strong> &middot; Darwin, NT</div>
+    </div>
+    <div class="entry-dates">2026 - Present</div>
+  </div>
+  <ul><li>Run seed germination trials using Oak Leaf Lettuce (KIRREN RZ 83-45) as part of a multidisciplinary environmental monitoring project</li><li>Assist in experimental design comparing seed growth under treatments with and without beneficial microbes</li><li>Monitor germination rates, seedling growth and overall plant health across the trial period</li><li>Collect observational data on water-holding capacity and moisture management in coir substrate</li></ul>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <div>
+      <h3>Research and Project Assistant - Remote Sensing and GIS</h3>
+      <div class="entry-sub"><strong>Charles Darwin University (casual and volunteer roles)</strong> &middot; Darwin, NT</div>
+    </div>
+    <div class="entry-dates">2025 - Present</div>
+  </div>
+  <ul><li>Annotate and digitise spatial datasets for environmental projects, including invasive species mapping and ghost net annotation</li><li>Prepare and clean shapefiles to produce analysis-ready GIS datasets</li><li>Produce cartographic outputs and spatial analysis for environmental monitoring projects</li><li>Support invasive species mapping projects with GIS-ready datasets for analysis and reporting</li></ul>
+</article>
+
+</section>
+
+
+<section id="projects" class="card">
+  <h2>Projects</h2>
+  
+<article class="entry">
+  <div class="entry-head">
+    <h3>savanna-burn-mapper (open source)</h3>
+    <div class="entry-dates">2026</div>
+  </div>
+  <p>Burnt-area and severity mapping from Sentinel-2 using dNBR, with severity breakpoints adjusted for northern Australian savanna where surface grass fires register far lower than the forest fires the USGS table was derived from. Python, 41 tests, CPU only</p>
+  <a class="proj-link" href="https://github.com/seemonkumawat1234-arch/savanna-burn-mapper" target="_blank" rel="noopener">View &rarr;</a>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>savanna-fire-history (open source)</h3>
+    <div class="entry-dates">2026</div>
+  </div>
+  <p>Fire regime metrics from annual fire-scar rasters: frequency, return interval, time since last fire, and the early versus late dry-season split that savanna fire management under the ACCU Scheme turns on. Python, 52 tests</p>
+  <a class="proj-link" href="https://github.com/seemonkumawat1234-arch/savanna-fire-history" target="_blank" rel="noopener">View &rarr;</a>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>sentinel2-landcover (open source)</h3>
+    <div class="entry-dates">2026</div>
+  </div>
+  <p>Land cover classification from Sentinel-2 with a random forest and k-means, using a spatial-block train/test split to avoid the inflated accuracies a random pixel split produces on autocorrelated imagery. Python, scikit-learn, 56 tests</p>
+  <a class="proj-link" href="https://github.com/seemonkumawat1234-arch/sentinel2-landcover" target="_blank" rel="noopener">View &rarr;</a>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Land Cover Classification, Sentinel-2 (Google Earth Engine)</h3>
+    <div class="entry-dates"></div>
+  </div>
+  <p>Applied supervised (CART) and unsupervised (k-means) classification to Sentinel-2 imagery in Google Earth Engine, then ran a full accuracy assessment reaching 66.7% overall accuracy and a Kappa coefficient of 0.571</p>
+  
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Urban Heat Risk Mapping, Darwin (ArcGIS Pro)</h3>
+    <div class="entry-dates"></div>
+  </div>
+  <p>Built a weighted overlay combining vegetation, land use and temperature data to identify urban heat exposure zones across Darwin, and produced the cartographic outputs</p>
+  
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Flood Risk Assessment, Jhapa District, Nepal (ArcGIS Pro)</h3>
+    <div class="entry-dates"></div>
+  </div>
+  <p>Analysed DEM and hydrological layers to delineate flood-prone areas, producing risk maps integrating terrain slope and river buffers</p>
+  
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Hospital Accessibility Analysis, Darwin and Palmerston</h3>
+    <div class="entry-dates"></div>
+  </div>
+  <p>Ran network analysis of travel times to hospitals and produced service area maps to support healthcare planning</p>
+  
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Bushfire-Prone Area Risk Mapping, Darwin Rural Area</h3>
+    <div class="entry-dates"></div>
+  </div>
+  <p>Modelled fire-prone zones from fire frequency rasters and land use data to support hazard management through risk mapping</p>
+  
+</article>
+
+</section>
+
+
+<section id="skills" class="card">
+  <h2>Skills</h2>
+  <div class="skill-groups"><div class="skill-group"><h3>GIS and Remote Sensing</h3><div class="chips"><span class="chip">ArcGIS Pro</span><span class="chip">QGIS</span><span class="chip">ArcGIS Online</span><span class="chip">Google Earth Engine (JavaScript API)</span><span class="chip">Sentinel-2</span><span class="chip">Landsat</span><span class="chip">Satellite image classification</span><span class="chip">Supervised and unsupervised classification</span><span class="chip">Accuracy assessment</span><span class="chip">Spatial analysis</span><span class="chip">Network analysis</span><span class="chip">Weighted overlay</span><span class="chip">Thematic cartography</span><span class="chip">Map production</span></div></div><div class="skill-group"><h3>Programming and Statistics</h3><div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">GeoPandas</span><span class="chip">Rasterio</span><span class="chip">R Studio</span><span class="chip">Stata</span><span class="chip">SQL (basic)</span><span class="chip">Regression modelling</span><span class="chip">Biostatistics</span><span class="chip">Spatial statistics</span><span class="chip">Data visualisation</span></div></div><div class="skill-group"><h3>Data and Field</h3><div class="chips"><span class="chip">GIS data management</span><span class="chip">Spatial databases</span><span class="chip">Shapefile preparation and cleaning</span><span class="chip">Digitisation and annotation</span><span class="chip">GPS mapping</span><span class="chip">Field data collection</span><span class="chip">Ground-truthing</span><span class="chip">Data integration</span><span class="chip">DEM and hydrological analysis</span></div></div><div class="skill-group"><h3>Domain</h3><div class="chips"><span class="chip">Environmental monitoring</span><span class="chip">Invasive species mapping</span><span class="chip">Ecological monitoring</span><span class="chip">Bushfire risk mapping</span><span class="chip">Flood risk assessment</span><span class="chip">Urban heat analysis</span><span class="chip">Literature review</span><span class="chip">Scientific writing</span><span class="chip">Research design</span></div></div><div class="skill-group"><h3>Other Tools</h3><div class="chips"><span class="chip">Microsoft Excel</span><span class="chip">Microsoft Word</span><span class="chip">Microsoft PowerPoint</span></div></div></div>
+</section>
+
+<section id="education" class="card"><h2>Education</h2>
+<article class="entry">
+  <div class="entry-head">
+    <h3>Master of Applied Spatial Science</h3>
+    <div class="entry-dates">2024 - 2026</div>
+  </div>
+  <div class="entry-sub">Charles Darwin University</div>
+  <ul><li>ENV502 Earth Observation - remote sensing, image classification, satellite image analysis</li><li>ENV508 Geographic Information Systems - ArcGIS Pro, QGIS, spatial databases</li><li>ENV511 Real-World Statistics and Data Reasoning - applied statistics in Stata and R Studio</li><li>SID403 Research Skills - scientific writing, project planning, data presentation</li><li>ENV519 Aquatic Resource Management</li><li>PHM553 Biostatistics - applied statistical analysis in Stata</li><li>PHM570 Epidemiology and Control of Communicable Disease</li><li>PHM588 Qualitative Research</li></ul>
+</article>
+
+<article class="entry">
+  <div class="entry-head">
+    <h3>Bachelor of Science</h3>
+    <div class="entry-dates"> - 2022</div>
+  </div>
+  <div class="entry-sub">Raffles University</div>
+  <ul></ul>
+</article>
+</section><section id="certifications" class="card"><h2>Certifications</h2><div class="chips"><span class="chip">Fundamentals of GIS - ArcGIS Online</span><span class="chip">Google Earth Engine Training</span><span class="chip">Stata Biostatistics</span><span class="chip">R Studio for Applied Statistics</span><span class="chip">C Class Driver&#x27;s Licence</span></div></section><section id="languages" class="card"><h2>Languages</h2><p>English (Fluent)</p></section>
+
+<section id="contact" class="card contact">
+  <h2>Get in touch</h2>
+  <nav class="links"><a class="pill" href="mailto:Seemonkumawat1234@gmail.com" target="_blank" rel="noopener">Email</a><a class="pill" href="https://linkedin.com/in/seemonkumawat" target="_blank" rel="noopener">LinkedIn</a><a class="pill" href="https://github.com/seemonkumawat1234-arch" target="_blank" rel="noopener">GitHub</a></nav>
+</section>
+
+</main>
+<footer>
+  <p>Generated 2026-09-15 &middot; built from one source resume, no template service involved.</p>
+</footer>
+</body>
+</html>
